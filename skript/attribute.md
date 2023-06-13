@@ -38,5 +38,5 @@ $$offHandProgress = 1$$
 
 モーションの時間をn tickと考えるとattackSpeedの値は
 $$attackSpeed = 20 / n$$
-ベースの値を考慮してn tickのモーションの値は
+ベース値を考慮してn tickのモーションの値は
 $$attackSpeed = 20 / n - 4$$
