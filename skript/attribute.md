@@ -31,7 +31,12 @@ Example
 ## generic.attackSpeed
 
 アイテムを使用・装着したときのモーションの計算
-$$CP=\frac{1}{attackSpeed}*20$$
+$$CP=\frac{20}{attackSpeed}$$
 $$CAS=\frac{ticksSinceLastSwing+adjustTicks}{CP}$$
 $$mainHandProgress = CAS^3\\{ 0\le CAS\le 1 \\}$$
 $$offHandProgress = 1$$
+
+モーションの時間をn tickと考えるとattackSpeedの値は
+$$attackSpeed = 20 / n$$
+ベースの値を考慮してn tickのモーションの値は
+$$attackSpeed = 20 / n - 4$$
