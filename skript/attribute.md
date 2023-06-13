@@ -33,5 +33,5 @@ Example
 アイテムを使用・装着したときのモーションの計算
 $$CP=\frac{1}{attackSpeed}*20$$
 $$CAS=\frac{ticksSinceLastSwing+adjustTicks}{CP}$$
-$$mainHandProgress = CAS^3\left\{ 0\le CAS\le 1\right\}$$
+$$mainHandProgress = CAS^3\{ 0\le CAS\le 1 \}$$
 $$offHandProgress = 1$$
