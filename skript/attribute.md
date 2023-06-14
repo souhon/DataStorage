@@ -37,6 +37,6 @@ $$mainHandProgress = CAS^3\\{ 0\le CAS\le 1 \\}$$
 $$offHandProgress = 1$$
 
 モーションの時間をn tickと考えるとattackSpeedの値は
-$$attackSpeed = 20 / n$$
+$$attackSpeed = \frac{20}{n}$$
 ベース値を考慮してn tickのモーションの値は
-$$attackSpeed = 20 / n - 4$$
+$$attackSpeed = \frac{20}{n}-4$$
