@@ -11,8 +11,8 @@ Example
 |generic.knockbackResistance|0|0|1|
 |generic.movementSpeed|0.699999988079071|0|1024|
 |generic.flyingSpeed|0.4000000059604645|0|1024|
-|generic.attackDamage|2.0D|0.0D|2048|
-|generic.attackSpeed|4.0D|0.0|1024|
+|generic.attackDamage|2|0|2048|
+|generic.attackSpeed|4|0|1024|
 |generic.armor|0|0|30|
 |generic.armorToughness|0|0|20|
 |generic.luck|0|-1024|1024|
